@@ -1,0 +1,24 @@
+﻿///////////////////////////////////////////////////////////////////////////
+/*
+* ARQUITECTURA DE COMPUTADORES
+* 2º Grado en Ingenieria Informatica
+*
+* GPU_BITMAP.H
+* Archivo de cabecera para la impresión grafica por pantalla con OpenGL
+*/
+///////////////////////////////////////////////////////////////////////////
+/*
+Este archivo de cabecera debe ir acompañado de los siguientes archivos:
+
+<1> glut.h
+<2> glext.h
+-> Comprobar que se encuentran junto al fichero fuente.
+
+<3> glut32.lib
+<4> glut64.lib
+-> Comprobar que se encuentran junto al fichero fuente.
+
+<5> glut32.dll
+<6> glut64.dll
+-> Comprobar que se encuentran junto al fichero ejecutable.
+*/

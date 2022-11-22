@@ -1,0 +1,9 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Ronri\source\repos\Entrega 2\Entrega 2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o "C:\Users\Ronri\source\repos\Entrega 2\Entrega 2\x64\Release\kernel.cu.obj" "C:\Users\Ronri\source\repos\Entrega 2\Entrega 2\kernel.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': redefinici¾n de macro
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': redefinici¾n de macro
+  kernel.cu
+     Creando biblioteca C:\Users\Ronri\source\repos\Entrega 2\x64\Release\Entrega 2.lib y objeto C:\Users\Ronri\source\repos\Entrega 2\x64\Release\Entrega 2.exp
+  LINK : se especificó /LTCG pero no se requiere generación de código; quite /LTCG de la línea de comandos de vínculo para mejorar el rendimiento del vinculador
+  Entrega 2.vcxproj -> C:\Users\Ronri\source\repos\Entrega 2\x64\Release\Entrega 2.exe
